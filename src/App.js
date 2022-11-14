@@ -1,5 +1,6 @@
 import './App.css';
 import imagem from "../src/um.svg";
+import simone from "../src/imgs/simone.jpeg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 /*
 
@@ -18,6 +19,10 @@ function App() {
      
 
     <div className="container-fluid">
+    <div className="box2">
+  <h2>O que o seu espelho tem te mostrado te agrada?</h2>
+          
+</div>
       <div className="header">
       <br/>
         <h1 className="xxl-text-title"><strong>Você conhece o Mais Vida?</strong></h1>
@@ -68,29 +73,36 @@ function App() {
         </h5>
     </div> 
         <div>
-        <h2 className="navbar-items-desc">Como adquirir?</h2>
-        <h5 className="navbar-items-desc-det">
+          <h2 className="navbar-items-desc">Como adquirir?</h2>
+            <h5 className="navbar-items-desc-det">
           Você pode baixar no seu computador ou celular e ler tranquilamente. Oferecemos atualizações gratuitas, então você não precisa se preocupar.
-        </h5>
+          </h5>
 
         </div>
+    
+        <div className="box1">
+          <h2>A vida é agora e não dá pra deixar pra depois, por isso, comece já a mudar para um Estilo de Vida Saudável com essas deliciosas dicas de sucos e shakes 100% naturais.</h2>
+        </div>
+
         <br/>
-
-
-
         <div>
         <button className="botao-de-compra" onClick={() => window.open("https://pay.kiwify.com.br/zD2Vx51")} >Comprar agora</button>
         <h6 className="subtitle3">Receba o seu produto instantaneamente</h6>
       </div>
       <br/>
 
-
-      
-     
-
         <h2 className="navbar-items-desc">Confira agora alguns cases de quem já desfrutou do ebook</h2>
 
-        <img className="img-depo" src={"https://cmx.weightwatchers.com/assets-proxy/weight-watchers/image/upload/v1635272395/visitor-site/prod/br/antes-agora_home.png"} alt="depoimento das mulheres"/>
+        <img className="img-depo1" src={simone} alt="depoimento das mulheres"/>
+
+        <div className="box1">
+          
+          <h3>
+O seu bem-estar e qualidade de vida depende da sua atitude positiva em começar. Faça uso diariamente das receitas deste material, que foi especialmente feito para você!
+Sabe por que? Porque você vai amar o que verá no seu espelho!</h3>
+        </div>
+
+       
 
 <br/>
 
@@ -104,10 +116,30 @@ function App() {
 
 <br/>
  <div>
-  <h3 className="pre-price">De R$ 177,000 para</h3>
-  <h1 className="pos-price"><strong>R$ 77,00</strong></h1>
+  <h3 className="pre-price">De R$ 177 para</h3>
+  <h1 className="pos-price"><strong>R$ 77</strong></h1>
+
+
  </div>
 <br/>
+ <div>
+        <button className="botao-de-compra" onClick={() => window.open("https://pay.kiwify.com.br/zD2Vx51")}>Comprar agora</button>
+        <h6 className="subtitle3">Receba o seu produto instantaneamente</h6>
+
+      </div>
+
+<br/>
+
+
+<div className="box1">
+          
+          <h3>
+          Você tem uma usina capaz de te dar Mais Vida e bem-estar em sua casa. Agora é a hora de você usar mais o seu liquificador e a centrífuga, vá para a cozinha e mude seus hábitos, para colher melhores resultados hoje, amanhã e depois, depois...
+          Você está feliz com o seu estilo de vida hoje? 
+          Olhe no espelho agora e imagine-se no futuro. 
+
+Gostou? Então comece já a executar as receitas para ter Mais Vida e bem-estar.</h3>
+        </div>
 
 
       <div>

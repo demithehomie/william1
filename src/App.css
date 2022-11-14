@@ -138,7 +138,27 @@
   border: 1px solid #4c8bf5; ;
 }
 
- 
+
+.box1 {
+  background-color: #4c8bf5;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+}
+
+.box2 {
+  background-color: #f54cc0;
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  
+}
 .depoimentos {
   padding: 10px;
   margin: 10px;
@@ -150,9 +170,9 @@
   justify-content: center;
 }
 
-.img-depo {
+.img-depo1 {
   padding: 15px;
-  width: 35%;
+  width: 25%;
   align-items: center;
   justify-content: center     ;
   display: flex;
@@ -169,6 +189,7 @@
   justify-content: center;
   display: flex;
   margin: 0;
+  font-size: 100px;
 }
 
 .footer-message {
