@@ -30,7 +30,7 @@ function App() {
       
       <div className="newbox">
         
-        <img className="img-book" src={imagem} alt="ebook"/>
+        <img className="img-book" onClick={() => window.open("https://pay.kiwify.com.br/zD2Vx51")} src={imagem} alt="ebook"/>
        
       </div>
       <br/>
@@ -48,7 +48,7 @@ function App() {
       
       <br/>
       <br/>
-        <button className="botao-de-compra" onClick={() => window.open("https://www.google.com")}>Comprar agora</button>
+        <button className="botao-de-compra" onClick={() => window.open("https://pay.kiwify.com.br/zD2Vx51")}>Comprar agora</button>
         <h6 className="subtitle3">Receba o seu produto instantaneamente</h6>
       </div>
       <br/>
@@ -79,7 +79,7 @@ function App() {
 
 
         <div>
-        <button className="botao-de-compra" onClick={() => window.open("https://www.google.com")} >Comprar agora</button>
+        <button className="botao-de-compra" onClick={() => window.open("https://pay.kiwify.com.br/zD2Vx51")} >Comprar agora</button>
         <h6 className="subtitle3">Receba o seu produto instantaneamente</h6>
       </div>
       <br/>
@@ -111,7 +111,7 @@ function App() {
 
 
       <div>
-        <button className="botao-de-compra" onClick={() => window.open("https://www.google.com")}>Comprar agora</button>
+        <button className="botao-de-compra" onClick={() => window.open("https://pay.kiwify.com.br/zD2Vx51")}>Comprar agora</button>
         <h6 className="subtitle3">Receba o seu produto instantaneamente</h6>
 
       </div>
