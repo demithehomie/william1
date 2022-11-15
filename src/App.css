@@ -1,9 +1,13 @@
 .app{
-  background-color: rgb(236, 90, 255);
+  background-color:  rgb(165, 255, 134);
   min-height: 1096px;
   
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.header-text {
+  color: rgb(100, 8, 112)
 }
 
 .navbar {
@@ -43,7 +47,7 @@
   margin: auto;
   padding: 15px;
   min-width: 50px;
-  background-color: rgb(165, 255, 134);
+  background-color: #4c8bf5;
   
 }
 
@@ -53,7 +57,7 @@
   min-width: 50px;
   margin: auto;
   padding: 10px;
- 
+  
   text-align: center;
 }
 
@@ -68,12 +72,13 @@
   width: 350px;
   height: 450px;
   margin: auto;
+  border: 4px solid #f54cc0;
   justify-content: center;
   display: flex;
 }
 
 .header {
-  background-color:rgb(165, 255, 134);
+  background-color:#fff;
   background-size: cover;
   background-size: 100% ; 
   height: 600px;
@@ -90,8 +95,10 @@
   min-width: 100px;
   color: rgb(100, 8, 112);
   justify-content: center;
+  text-align: center;
   display: flex;
   margin: 0;
+  font-size: 55px ;
  
   
 }
@@ -99,8 +106,10 @@
 .subtitle1 {
   color: rgb(100, 8, 112);
   justify-content: center;
+  text-align: center;
   display: flex;
   font-size: 30px;
+
 
 }
 
@@ -109,7 +118,7 @@
   justify-content: center;
   display: flex;
   font-size: 20px;
-  
+  text-align: center;
   margin: auto;
 }
 
@@ -132,12 +141,28 @@
   display: flex;
   border-radius: 15px;
   padding: 9px;
+  width: 300px;
   background-color: #4c8bf5;
   color: aliceblue;
   font-weight: bold;
   border: 1px solid #4c8bf5; ;
 }
 
+
+.botao-de-compra-2 {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  border-top-left-radius:  15px;
+  padding: 12px;
+  background-color: #4c8bf5;
+  color: aliceblue;
+  font-weight: bold;
+  border: 1px solid rgb(0, 10, 143)  ;
+}
+.botoes {
+    display: flex;
+}
 
 .box1 {
   background-color: #4c8bf5;
@@ -150,8 +175,8 @@
 }
 
 .box2 {
-  background-color: #f54cc0;
-  color: #fff;
+  background-color: #fff;
+  color: rgb(98, 6, 184);
   border-radius: 30px;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -168,6 +193,10 @@
 .depoimentos-nome {
   padding: 10px;
   justify-content: center;
+}
+
+.depoimentos-imgs {
+  display: flex;
 }
 
 .img-depo1 {
