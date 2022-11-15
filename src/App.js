@@ -121,7 +121,7 @@ Sabe por que? Porque você vai amar o que verá no seu espelho!</h3>
 <div className="navbar-items-desc-quem">
   
  
-  <h4 className="navbar-items-desc-det-2">Sou e Willian Balduino atuei nos últimos 10 anos levando conteúdos e informações para melhoria da qualidade de vida das pessoas em empresas, escolas, residências, tanto em palestras como em visitas. 
+  <h4 className="navbar-items-desc-det-2">Sou eu Willian Balduino atuei nos últimos 10 anos levando conteúdos e informações para melhoria da qualidade de vida das pessoas em empresas, escolas, residências, tanto em palestras como em visitas. 
 Os conteúdos sempre foram direcionados para o relacionamento, educação e bem-estar, portanto, voltado única e exclusivamente para o equilíbrio e busca de uma qualidade de vida melhor.
 A pandemia mudou o meu cenário, não o meu propósito, por isso desejo que você tenha Mais Vida com este conteúdo, que está disponível aqui. Aproveite bem e tenha Mais Vida!</h4>
 </div>
