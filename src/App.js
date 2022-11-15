@@ -53,8 +53,12 @@ function App() {
       <br/>
       <br/>
       <br/>
+     
       <br/>
 
+<br/>
+      <br/>
+      
       
       <br/>
       <br/>
@@ -113,11 +117,11 @@ Sabe por que? Porque você vai amar o que verá no seu espelho!</h3>
 
 <br/>
 
-<h2 className="navbar-items-desc-t">E aí, beleza? </h2>
+<h2 className="navbar-items-desc-t">E aí, beleza?</h2>
 <div className="navbar-items-desc-quem">
   
  
-  <h4 className="navbar-items-desc-det">Sou e Willian Balduino atuei nos últimos 10 anos levando conteúdos e informações para melhoria da qualidade de vida das pessoas em empresas, escolas, residências, tanto em palestras como em visitas. 
+  <h4 className="navbar-items-desc-det-2">Sou e Willian Balduino atuei nos últimos 10 anos levando conteúdos e informações para melhoria da qualidade de vida das pessoas em empresas, escolas, residências, tanto em palestras como em visitas. 
 Os conteúdos sempre foram direcionados para o relacionamento, educação e bem-estar, portanto, voltado única e exclusivamente para o equilíbrio e busca de uma qualidade de vida melhor.
 A pandemia mudou o meu cenário, não o meu propósito, por isso desejo que você tenha Mais Vida com este conteúdo, que está disponível aqui. Aproveite bem e tenha Mais Vida!</h4>
 </div>
@@ -175,7 +179,8 @@ Você tomou a decisão que vai mudar a sua vida para melhor, e para tornar os se
       </div>
 
     <br/>
-      <h2 className="navbar-items-desc">Alguma dúvida? Fale conosco agora mesmo</h2>
+      <h2 className="navbar-items-desc">Alguma dúvida?</h2>
+      <h2 className="navbar-items-desc">Fale conosco agora mesmo</h2>
     <br/>
  <div className="botoes">
     <h4 className="botao-de-compra-2" onClick={() => window.open(" https://linkwhats.app/8ae376")}>WhatsApp</h4>

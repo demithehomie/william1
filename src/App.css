@@ -1,7 +1,7 @@
 .app{
   background-color:  rgb(165, 255, 134);
   min-height: 1096px;
-  
+  min-width: 276px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -61,18 +61,35 @@
   text-align: center;
 }
 
+.navbar-items-desc-det-2 {
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  margin: auto;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
 .newbox {
   background-color: blueviolet;
   border-radius: 15px;
   max-width: 350px;
   margin: auto;
+  max-width: 180px;
+  max-height: 300px;
+  min-width: 15px;
+  min-height: 30px;
 }
 
 .img-book{
-  width: 350px;
-  height: 450px;
+  max-width: 200px;
+  max-height: 300px;
+  min-width: 15px;
+  min-height: 30px;
   margin: auto;
   border: 4px solid #f54cc0;
+  align-items: center;
   justify-content: center;
   display: flex;
 }
@@ -109,7 +126,7 @@
   text-align: center;
   display: flex;
   font-size: 30px;
-
+text-align: center;
 
 }
 
@@ -126,7 +143,7 @@
   justify-content: center;
   display: flex;
   margin: 2px;
-
+  text-align: center;
 }
 
 .video {
@@ -141,7 +158,7 @@
   display: flex;
   border-radius: 15px;
   padding: 9px;
-  width: 300px;
+  width: auto;
   background-color: #4c8bf5;
   color: aliceblue;
   font-weight: bold;
@@ -150,19 +167,18 @@
 
 
 .botao-de-compra-2 {
-  margin: auto;
+  margin: 10px;
   justify-content: center;
   display: flex;
   border-top-left-radius:  15px;
-  padding: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #4c8bf5;
   color: aliceblue;
   font-weight: bold;
   border: 1px solid rgb(0, 10, 143)  ;
 }
-.botoes {
-    display: flex;
-}
+
 
 .box1 {
   background-color: #4c8bf5;
