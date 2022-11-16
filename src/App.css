@@ -25,6 +25,7 @@
 
 .navbar-items-desc {
   justify-content: center;
+  text-align: center;
   display: flex;
   margin-left: 10px;
   margin-right: 10px;
@@ -143,7 +144,7 @@ text-align: center;
 .subtitle3 {
   justify-content: center;
   display: flex;
-  margin: 2px;
+  margin: 12.5px;
   text-align: center;
 }
 
@@ -158,7 +159,7 @@ text-align: center;
   justify-content: center;
   display: flex;
   border-radius: 15px;
-  padding: 9px;
+  padding: 12px;
   width: auto;
   background-color: #4c8bf5;
   color: aliceblue;

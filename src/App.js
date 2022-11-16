@@ -2,6 +2,8 @@ import './App.css';
 import imagem from "../src/imgs/um.jpg";
 import simone from "../src/imgs/simone.jpeg";
 import antonia from "../src/imgs/antonia.jpeg";
+import dani_bau from "../src/imgs/dani_bau.jpeg";
+import diana from "../src/imgs/diana.jpeg";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 /*
@@ -49,10 +51,7 @@ function App() {
       <br/>
       <br/>
       <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+   
      
       <br/>
 
@@ -85,15 +84,12 @@ function App() {
         <div>
           <h2 className="navbar-items-desc">Como adquirir?</h2>
             <h5 className="navbar-items-desc-det">
-            A vida é aqui e agora, por isso não dá pra deixar pra depois. Comece já a adotar um Estilo de Vida Saudável com essas deliciosas dicas de sucos e shakes 100% naturais. Em breve novas receitas.
+            A vida é aqui e agora, por isso não dá pra ficar adiando, por isso, comece já a mudar seus hábitos para um Estilo de Vida Saudável com essas deliciosas dicas de sucos e shakes 100% naturais. <strong>Em breve novas receitas.</strong>
           </h5>
 
         </div>
     
-        <div className="box1">
-          <h2>A vida é agora e não dá pra deixar pra depois, por isso, comece já a mudar para um Estilo de Vida Saudável com essas deliciosas dicas de sucos e shakes 100% naturais.</h2>
-        </div>
-
+      
         <br/>
         <div>
         <button className="botao-de-compra" onClick={() => window.open("https://pay.kiwify.com.br/zD2Vx51")} >Comprar agora</button>
@@ -105,6 +101,8 @@ function App() {
         <div className="depoimentos-imgs">
           <img className="img-depo1" src={simone} alt="depoimento das mulheres"/>
           <img className="img-depo1" src={antonia} alt="depoimento da antonia"/>
+          <img className="img-depo1" src={dani_bau} alt="depoimento da dani bau"/>
+          <img className="img-depo1" src={diana} alt="depoimento da diana"/>
         </div>
         <div className="box1">
           
@@ -164,10 +162,17 @@ Você tomou a decisão que vai mudar a sua vida para melhor, e para tornar os se
 <div className="box1">
           
           <h3>
-          Você tem uma usina capaz de te dar Mais Vida e bem-estar em sua casa. Agora é a hora de você usar mais o seu liquificador e a centrífuga, vá para a cozinha e mude seus hábitos, para colher melhores resultados hoje, amanhã e depois, depois...
-          Você está feliz com o seu estilo de vida hoje? 
-          Olhe no espelho agora e imagine-se no futuro. 
+          Você tem uma usina capaz de te dar Mais Vida e bem-estar em sua casa. 
+          
 
+<br/>         <br/>
+
+ Agora é a hora de você usar mais o seu liquificador e a centrífuga, vá para a cozinha e mude seus hábitos, para colher melhores resultados hoje, amanhã e depois, depois...
+          <br/><br/>
+          Você está feliz com o seu estilo de vida hoje? 
+          <br/>
+          Olhe no espelho agora e imagine-se no futuro. 
+          <br/>
             Gostou? Então comece já a executar as receitas para ter Mais Vida e bem-estar.</h3>
         </div>
 
