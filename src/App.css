@@ -10,6 +10,18 @@
   color: rgb(100, 8, 112)
 }
 
+.video_yt {
+  justify-content: center;
+  display: flex;
+  width:auto;
+  min-width: 50%;
+ margin: auto;
+  border-radius: 15px;
+  max-width: 550px;
+ 
+
+}
+
 .navbar {
   background-color: #4c8bf5;
   display: flex;
@@ -35,7 +47,7 @@
 .navbar-items-desc-t {
   justify-content: center;
   display: flex;
-  align-items: center;
+  
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
