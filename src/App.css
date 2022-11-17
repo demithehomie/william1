@@ -1,10 +1,13 @@
 .app{
   background-color:  rgb(165, 255, 134);
-  min-height: 1096px;
+  min-height: 800px;
   min-width: 276px;
   padding-top: 15px;
   padding-bottom: 15px;
+  display:block;
 }
+
+
 
 .header-text {
   color: rgb(100, 8, 112)
@@ -13,13 +16,24 @@
 .video_yt {
   justify-content: center;
   display: flex;
-  width:auto;
+  
+  width: 100%;
+  height: 100%;
+  
   min-width: 50%;
- margin: auto;
-  border-radius: 15px;
-  max-width: 550px;
- 
+  min-height: 50%;
 
+  max-width: 85%;
+  max-height: 85%;
+  
+  object-fit: fill;
+
+  margin: auto;
+  border-radius: 5px;
+
+ 
+    
+ 
 }
 
 .navbar {
@@ -48,8 +62,8 @@
   justify-content: center;
   display: flex;
   
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
   text-align: center;
 
 }
@@ -59,8 +73,9 @@
   text-align: center;
   display: flex;
   margin: auto;
-  padding: 15px;
+  padding: 0px;
   min-width: 50px;
+  border-radius: 30px ;
   background-color: #4c8bf5;
   
 }
@@ -71,7 +86,7 @@
   min-width: 50px;
   margin: auto;
   padding: 10px;
-  
+  border-radius: 30px;
   text-align: center;
 }
 
@@ -112,6 +127,7 @@
   background-color:#fff;
   background-size: cover;
   background-size: 100% ; 
+  box-sizing: border-box;
   height: 600px;
   padding: 30px;
   margin: auto;
@@ -129,7 +145,7 @@
   text-align: center;
   display: flex;
   margin: 0;
-  font-size: 55px ;
+  font-size: 45px ;
  
   
 }
@@ -202,6 +218,7 @@ text-align: center;
   padding: 30px;
   text-align: center;
   display: flex;
+  border-radius: 30px;
 }
 
 .box2 {
@@ -239,15 +256,16 @@ text-align: center;
 }
 
 .pre-price {
-  margin: 0;
+  margin: auto;
   display: flex;
   justify-content: center;
 }
 
 .pos-price {
-  justify-content: center;
+  margin: auto;
   display: flex;
-  margin: 0;
+  justify-content: center;
+  align-items: center;
   font-size: 100px;
 }
 
