@@ -192,9 +192,10 @@ Você tomou a decisão que vai mudar a sua vida para melhor, e para tornar os se
     <h4 className="botao-de-compra-2" onClick={() => window.open("https://linkwhats.app/8ae376")}>WhatsApp</h4>
     <h4 className="botao-de-compra-2" onClick={() => window.open("https://www.instagram.com/balduino_willian2208")}>Instagram</h4>
     <h4 className="botao-de-compra-2" onClick={() => window.open("mailto:william.balduino@gmail.com?subject=Ajuda%20sobre%20o%20produto%20Mais%20Vida&body=Ol%C3%A1%2C%20pode%20me%20ajudar%3F")}>Email</h4>
-
-    <h6 className="footer-message">Makron Agência Criativa (C) 2022. Todos os Direitos Reservados</h6>
     <br/>
+    
+    <h6 className="footer-message">Makron Agência Criativa (C) 2022. Todos os Direitos Reservados</h6>
+    <br/> <br/><br/>
     </div>
     </div>
     </div>
