@@ -19,9 +19,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 */
 function App() {
   return (
+
     <div className="app">
       <div className="container-fluid">
+      <br></br>
         <div className="header">
+          
            <br/>
               <h1 className="xxl-text-title"><strong>Você conhece o Mais Vida?</strong></h1>
             <br/>
@@ -35,7 +38,7 @@ function App() {
    <br/>
       <br/>
       <br/>
-
+      <div className="all-green">
       <button className="botao-de-compra" onClick={() => window.open("https://pay.kiwify.com.br/zD2Vx51")}>Comprar agora</button>
         <h6 className="subtitle3">Receba o seu produto instantaneamente</h6>
         
@@ -74,13 +77,7 @@ function App() {
       
        
 
-    <div>
-     
-    </div> 
-        <div>
-      
 
-        </div>
     
       
         <br/>
@@ -167,7 +164,7 @@ Você tomou a decisão que vai mudar a sua vida para melhor, e para tornar os se
 
 <br/>
 
-
+<div className="final-green">
 <div className="box1">
           
           <h3>
@@ -195,8 +192,11 @@ Você tomou a decisão que vai mudar a sua vida para melhor, e para tornar os se
     <h4 className="botao-de-compra-2" onClick={() => window.open("https://linkwhats.app/8ae376")}>WhatsApp</h4>
     <h4 className="botao-de-compra-2" onClick={() => window.open("https://www.instagram.com/balduino_willian2208")}>Instagram</h4>
     <h4 className="botao-de-compra-2" onClick={() => window.open("mailto:william.balduino@gmail.com?subject=Ajuda%20sobre%20o%20produto%20Mais%20Vida&body=Ol%C3%A1%2C%20pode%20me%20ajudar%3F")}>Email</h4>
-</div>
+
     <h6 className="footer-message">Makron Agência Digital (C) 2022. Todos os Direitos Reservados</h6>
+    </div>
+    </div>
+    </div>
     </div>
     </div>
     </div>

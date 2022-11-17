@@ -1,13 +1,27 @@
 .app{
   background-color:  rgb(165, 255, 134);
-  min-height: 800px;
-  min-width: 276px;
-  padding-top: 15px;
+  min-height: 5350px;
+  max-height: 50%;
+  
+  min-width: 350px;
+  margin: 0;
   padding-bottom: 15px;
-  display:block;
+  display: flex;
 }
 
+.final-green {
+  background-color:  rgb(165, 255, 134);
+ 
+  height: 330px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
 
+.container-fluid {
+ background-color:  rgb(165, 255, 134);
+ margin: 0;
+}
 
 .header-text {
   color: rgb(100, 8, 112)
@@ -46,7 +60,15 @@
 
 .navbar-items {
   padding: 5px;
+  background-color:  rgb(165, 255, 134);
   align-items: flex-end;
+}
+
+.all-green {
+  background-color:  rgb(165, 255, 134);
+  padding: auto;
+  margin: auto;
+  
 }
 
 .navbar-items-desc {
@@ -56,6 +78,7 @@
   margin-left: 10px;
   margin-right: 10px;
   min-width: 50px;
+  
 }
 
 .navbar-items-desc-t {
@@ -126,7 +149,7 @@
 .header {
   background-color:#fff;
   background-size: cover;
-  background-size: 100% ; 
+  background-size: 80% ; 
   box-sizing: border-box;
   height: 600px;
   padding: 30px;
@@ -222,7 +245,7 @@ text-align: center;
 }
 
 .box2 {
-  background-color: #fff;
+  background-color:  rgb(165, 255, 134);
   color: rgb(98, 6, 184);
   border-radius: 30px;
   margin-top: 20px;
@@ -234,7 +257,7 @@ text-align: center;
 .depoimentos {
   padding: 10px;
   margin: 10px;
-
+  background-color:  rgb(165, 255, 134);
 }
 
 .depoimentos-nome {
