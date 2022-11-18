@@ -21,7 +21,7 @@ function App() {
   return (
 
     <div className="app">
-      <div className="container-fluid">
+      <div className="con">
       <br></br>
         <div className="header">
           
@@ -35,7 +35,24 @@ function App() {
             <br/>
       
                 <iframe className="video_yt" src="https://www.youtube.com/embed/W0EaKB18PY8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
    <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <br/>
       <br/>
       <div className="all-green">
@@ -177,7 +194,7 @@ Você tomou a decisão que vai mudar a sua vida para melhor, e para tornar os se
 </h3>
         </div>
 
-
+    <div className="final2">
       <div>
         <button className="botao-de-compra" onClick={() => window.open("https://pay.kiwify.com.br/zD2Vx51")}>Comprar agora</button>
         <h6 className="subtitle3">Receba o seu produto instantaneamente</h6>
@@ -188,6 +205,7 @@ Você tomou a decisão que vai mudar a sua vida para melhor, e para tornar os se
       <h2 className="navbar-items-desc">Alguma dúvida?</h2>
       <h2 className="navbar-items-desc">Fale conosco agora mesmo</h2>
     <br/>
+    </div>
  <div className="botoes">
     <h4 className="botao-de-compra-2" onClick={() => window.open("https://linkwhats.app/8ae376")}>WhatsApp</h4>
     <h4 className="botao-de-compra-2" onClick={() => window.open("https://www.instagram.com/balduino_willian2208")}>Instagram</h4>
@@ -195,10 +213,10 @@ Você tomou a decisão que vai mudar a sua vida para melhor, e para tornar os se
     <br/>
     
     <h6 className="footer-message">Makron Agência Criativa (C) 2022. Todos os Direitos Reservados</h6>
-    <br/> <br/><br/>
+    <br/> 
     </div>
     </div>
-    </div>
+    
     </div>
     </div>
     </div>

@@ -1,12 +1,12 @@
 .app{
   background-color:  rgb(165, 255, 134);
-  min-height: 5700px;
-  max-height: 50%;
+  height: 4300px;
+  max-height: 100%;
   
-  min-width: 350px;
+  min-width: 400px;
   margin: 0;
-  padding-bottom: 15px;
-  display: flex;
+  
+  
 }
 
 .final-green {
@@ -18,7 +18,7 @@
   margin: auto;
 }
 
-.container-fluid {
+.con {
  background-color:  rgb(165, 255, 134);
  margin: 0;
 }
@@ -153,7 +153,7 @@
   box-sizing: border-box;
   height: 600px;
   padding: 30px;
-  margin: auto;
+  margin: 20px;
   border-radius: 30px;
   display: auto;
   justify-content: center;
@@ -203,6 +203,10 @@ text-align: center;
   align-items: center;
   display: flex;
   margin: auto;
+}
+
+.botoes{
+  background-color: rgb(165, 255, 134);
 }
 
 .botao-de-compra {
@@ -299,4 +303,7 @@ text-align: center;
   min-width: 250px;
 }
 
+.final2{
+  background-color:  rgb(165, 255, 134); 
+}
 
